@@ -1,0 +1,178 @@
+
+    .btn {
+      border-radius: 0;  
+    }
+
+    header p{
+      text-shadow: 2px 2px #555;
+    }
+
+    hr.white-hr{
+      border-color: #FFFFFF; 
+    }
+
+    section {
+      padding: 0;
+      margin-left: -15px; }
+    section .text{
+      padding: 6em 5em;
+    }
+
+    feature{
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-position: center center;
+      background-color: #EEECEC; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      feature hr {
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      feature h1.text-uppercase {
+        font-size: 2rem; }
+        feature .btn{
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+      feature .carous img{
+        display: block;
+        margin: 0 auto; }
+      @media (min-width: 992px) {
+        feature {
+          height: 100vh;
+          min-height: 650px;
+          padding-top: 0;
+          padding-bottom: 0; }
+          feature h1 {
+            font-size: 3rem; } }
+      @media (min-width: 1200px) {
+        feature h1 {
+          font-size: 4rem; }}
+
+    .sub{
+       background-color: #0B8F94;  }
+    .serv{
+        padding-top: 30px;
+        padding-bottom: 30px;   }
+    .service-box {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        max-width: 350px;
+        padding-top: 70px;
+        padding-bottom: 70px; 
+        border: 1px solid  #0B8F94;
+        background-color: #EEECEC;  }
+    .service-box.service-text{
+        background-color: #0B8F94;
+        border: 1px solid #FFFFFF;
+        padding-left: 5px;
+        padding-right: 5px;  }
+    
+    about{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-image: url("../img/header2.jpg");
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size:cover;}
+    about hr {
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      @media (min-width: 768px) {
+        about p {
+          font-size: 12; } }
+    about .about-box i{
+        color: #FFFFFF !important;          
+    }
+
+    testy{
+        padding-top: 20px;
+        padding-bottom: 20px;  }
+    testy hr .my-3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-color: #FFFFFF; }
+    testy hr{
+         margin-top: 30px;
+        margin-bottom: 30px;
+        border-color: #F05F40; }
+    testy p{
+        font-weight: 300; }
+      @media(min-width : 768px){
+          testy p{
+            font-weight: 300;}
+      }
+      @media(min-width: 992px){
+          testy{
+              height: 70vh;
+              min-height: 550px;
+              padding-top: 10;
+              padding-bottom: 10; }
+      }
+    testy ul li{
+         word-spacing: 30px; }
+         @media(min-width : 992px){
+          testy ul li{
+            word-spacing: 45px; }
+         }
+    
+    input.email-input{
+            height: 40px;
+            width: 300px;
+            padding : 5px; }
+    .submit-btn-box{
+            height: 40px;
+            width: 300px;
+            margin-bottom: 50px;
+            border-radius: 0; }
+      
+      div.border-top-0{
+        border: 1px solid white;
+      }
+
+      .img-container {
+        overflow: hidden;
+      }
+      .img-container .image-fluid-custom {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: url('../img/a_1.jpg') no-repeat;
+        background-size: cover;
+        min-height: 300px;
+      }
+
+      ul li{
+        display : inline;
+        word-spacing: 10px;
+      }
+      footer ul li a{
+        font-size: 10px;
+      }
+      footer ul li{
+        display : inline;
+        word-spacing: 10px;
+      }
+      footer .footer-row{
+        padding-top: 16px;
+        padding-bottom: 10px;
+        font-size: 10px;
+      }
+      @media(min-width: 768px){
+        footer ul li a{
+        font-size: 14px;}
+        footer .footer-row{
+          font-size : 12px;
+        }
+      }
+      
+      
